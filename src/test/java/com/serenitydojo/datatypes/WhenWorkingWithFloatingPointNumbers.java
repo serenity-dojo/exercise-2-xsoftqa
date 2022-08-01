@@ -31,7 +31,6 @@ public class WhenWorkingWithFloatingPointNumbers {
         double weightInPounds = 0;
 
         // TODO: Use a floating point calculation to calculate the correct weight in pounds
-        weightInPounds = weightInKilograms * 2.20462;
 
         assertThat(weightInPounds, equalTo(110.231));
 
