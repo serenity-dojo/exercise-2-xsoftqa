@@ -18,8 +18,6 @@ public class WhenWorkingWithFloatingPointNumbers {
 
         // TODO: Use a floating point calculation to calculate the farenheit equivalent of the celcius value.
 
-        farenheit = (9.0 / 5.0) * celcius + 32.0;
-
         assertThat(farenheit, equalTo(80.6));
     }
 
